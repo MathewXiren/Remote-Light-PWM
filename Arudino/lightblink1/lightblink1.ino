@@ -1,3 +1,11 @@
+/*
+    wifi control code
+
+    @Xiren Ma
+    mathewxiren@gmail.com
+    2016
+*/
+
 #include <SoftwareSerial.h>
  
 //SoftwareSerial mySerial(10, 11); // RX, TX

@@ -1,3 +1,11 @@
+/*
+    wifi control code
+
+    @Xiren Ma and Xu Luo
+    mathewxiren@gmail.com
+    2016
+*/
+
 import React from 'react';
 import './App.css';
 // LeanCloud

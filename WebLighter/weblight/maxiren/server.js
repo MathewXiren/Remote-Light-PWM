@@ -1,3 +1,10 @@
+/*
+    wifi control code
+
+    @Xiren Ma
+    mathewxiren@gmail.com
+    2016
+*/
 var http = require('http');
 var static = require('node-static');
 

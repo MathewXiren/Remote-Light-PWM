@@ -1,0 +1,133 @@
+.trigger {
+    margin-top: 10px;
+    width: 160px;
+    height: 160px;
+    padding: 15px 0px;
+    border-radius: 80px;
+    border-top: 1px solid #888;
+    background-color: #333;
+    background-image: linear-gradient(-180deg, #444 0%, #111 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.trigger .enable {
+    height: 32px;
+}
+
+.trigger .time {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0px 20px;
+    background: #222;
+    background-image: linear-gradient(-180deg, #111 0%, #333 100%);
+    border-radius: 20px;
+}
+
+.trigger .back-block {
+    width: 40px;
+    height: 40px;
+    margin-left: 1px;
+    background-color: #333;
+    background-image: linear-gradient(-180deg, #444 0%, #111 100%);
+    border-left: 1px solid #555;
+    border-right: 1px solid #333;
+}
+
+.trigger .time-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    background: transparent;
+    box-shadow: inset 0px 0px 20px #000;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0px 20px;
+}
+
+.trigger .time-box .hour,.minute {
+    width: 40px;
+    font-size: 16px;
+    font-weight: bolder;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.trigger .enable, .hour, .minute, .status {
+    outline: none;
+    border: none;
+    background: transparent;
+    color: #DDD;
+    appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+}
+
+.trigger .enable {
+    position: relative;
+    width: 40px;
+    height: 24px;
+}
+.trigger .enable-checkbox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 24px;
+    opacity: 0;
+}
+.trigger .switcher {
+    width: 40px;
+    height: 24px;
+    margin: 0;
+    border-radius: 15px;
+    background: #222;
+    box-shadow: inset 0px 0px 1px #000;
+    display: flex;
+    align-items: center;
+}
+.trigger .switcher .round {
+    margin: 0px 1px;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background: #555;
+    border: none;
+    border: 1px solid #555;
+}
+.trigger .enable-checkbox:checked ~ .switcher {
+    justify-content: flex-end;
+    background: #EEE;
+}
+.trigger .enable-checkbox:checked ~ .switcher>.round {
+    background: #EEE;
+    border: 1px solid #BBB;
+}
+
+.trigger .status {
+    position: relative;
+    height: 40px;
+    width: 40px;
+}
+.trigger .status-checkbox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    opacity: 0;
+}
+.trigger .bulb-button {
+    fill: #555;
+}
+.trigger .status-checkbox:checked ~ .bulb-button {
+    fill: #EEE;
+}

@@ -1,0 +1,7 @@
+#dashboard {
+    /*flex: 1;*/
+    padding: 40px 0;
+    background-color: #000;
+    background-image: linear-gradient(-180deg, #333 0%, #000 100%);
+    /*display: flex;*/
+}

@@ -1,0 +1,3 @@
+AT+CWJAP="Triz","wdzzy9113”
+
+AT+CWJAP="Mathew","332323108"

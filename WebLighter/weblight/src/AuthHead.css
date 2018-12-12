@@ -1,0 +1,32 @@
+#auth-head {
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 40px;
+  padding: 0 20px;
+  font-size: 16px;
+  font-weight: lighter;
+  background-color: rgba(255, 255, 255, .9);
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+}
+
+#auth-head .split {
+  flex: 1;
+}
+#auth-head .username {
+  font-size: 1em;
+  padding: 10px;
+  color: #333;
+}
+#auth-head .sign-out-btn {
+  font-size: .9em;
+  cursor: pointer;
+  color: #888;
+}
+#auth-head .sign-out-btn:hover{
+  color: #2962FF;
+}
